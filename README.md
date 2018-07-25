@@ -1,6 +1,9 @@
 # tightVNC_over_internet
 
 
+Using these files and tightvnc, you can remote control a computer without a publish ip nor in your local network. 
+
+
 To make it work, install tightvnc on the computers at your home and in your company, change the ip parts in the files, run runOnRemoteServer.py on your server with a publish ip, run runOnCompany.py on your company computer, run runOnHome.py on your home computer. On your home computer, open tightvnc Viewer, connect to the ip::port used in runOnHome.py(in my case 127.0.0.1::9999), then your can remote control your company computer not in your LAN.
 
 
